@@ -3,7 +3,7 @@
 file:index.php
 purpose:main file listing categories
 *************************************/
-phpinfo();
+extension=php_mysql.dll
 include 'connect.php';
 include 'header.php';  
 echo '<tr>';  
